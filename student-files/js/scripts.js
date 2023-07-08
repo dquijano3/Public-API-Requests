@@ -87,6 +87,7 @@ function displayModal(index) {
   modalCloseButton.addEventListener('click', closeModal);
 }
 
+// Function to close the modal
 function closeModal() {
   const modalContainer = document.querySelector('.modal-container');
   modalContainer.remove();
